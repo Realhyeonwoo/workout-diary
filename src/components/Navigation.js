@@ -8,7 +8,7 @@ const Navigation = () => {
   return (
     <>
       <NavLink
-        to="/log"
+        to="/"
         style={({ isActive }) => (isActive ? activeStyle : undefined)}
       >
         로그
@@ -26,7 +26,7 @@ const Navigation = () => {
         통계
       </NavLink>
       <NavLink
-        to="/"
+        to="/setting"
         style={({ isActive }) => (isActive ? activeStyle : undefined)}
       >
         세팅
