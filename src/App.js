@@ -6,7 +6,6 @@ import StaticPage from "./pages/StaticPage";
 import SettingPage from "./pages/SettingPage";
 import SettingSportPage from "./pages/SettingSportPage";
 import SettingCategoryPage from "./pages/SettingCategoryPage";
-import SettingLoginPage from "./pages/SettingLoginPage";
 
 function App() {
   return (
@@ -17,7 +16,6 @@ function App() {
         <Route path="/routine" element={<RoutinePage />} />
         <Route path="/static" element={<StaticPage />} />
         <Route path="/setting" element={<SettingPage />} />
-        <Route path="/setting/login" element={<SettingLoginPage />} />
         <Route path="/setting/sport" element={<SettingSportPage />} />
         <Route path="/setting/category" element={<SettingCategoryPage />} />
         <Route path="*" element={<SettingPage />} />
